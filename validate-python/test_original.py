@@ -146,7 +146,7 @@ class Test_Original(unittest.TestCase):
         self.assertFalse(Validate.ip(""))
         self.assertFalse(Validate.ip("127.0.0.1' OR 1=1--"))
         self.assertFalse(Validate.ip("123.123.123.1234"))
-        self.assertFalse(Validate.ip("1.1.1.1"))
+    #    self.assertFalse(Validate.ip("1.1.1.1")) actually a website, not malicious
 
                             
                             
